@@ -1,3 +1,3 @@
 # PythonBeginning
 
-For exercise purpose only! Learing Python
+For exercise purpose only! Learning Python
