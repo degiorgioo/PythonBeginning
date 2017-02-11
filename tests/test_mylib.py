@@ -4,7 +4,6 @@ from FirstModule.mylib import *
 
 
 class TestCaseMyLib(unittest.TestCase):
-    """Tests for mylib"""
 
     def test_calculate_multiplication(self):
         result = calculate(1, 3, "*")
