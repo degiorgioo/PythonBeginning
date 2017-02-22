@@ -1,11 +1,6 @@
 language:  python
 env:
-  - TOXENV=py26
-  - TOXENV=py27
   - TOXENV=py33
-  - TOXENV=py34
-  - TOXENV=pypy
-  - TOXENV=cov
 matrix:
   allow_failures:
     - env: TOXENV=cov
