@@ -1,10 +1,14 @@
 language:  python
 env:
   - TOXENV=py33
+  - TOXENV=cov
 matrix:
   allow_failures:
     - env: TOXENV=cov
 install:
    - pip install --quiet --use-mirrors tox
+   - pip install --quiet --use-mirrors coveralls
 script:
    - tox
+after_script:
+  - coveralls
