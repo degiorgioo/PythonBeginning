@@ -36,5 +36,6 @@ class TestCaseMyLib(unittest.TestCase):
         mymap(testlist, decrement)
         self.assertEqual(testlist, listshouldbe)
 
+
 if __name__ == '__main__':
     unittest.main()
